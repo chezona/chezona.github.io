@@ -24,32 +24,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Merriweather",
-        body: "Lato",
+        header: "Playfair Display",
+        body: "Source Serif Pro",
         code: "Fira Code",
       },
       colors: {
         lightMode: {
-          light: "#ffffff",       // White background
-          lightgray: "#f5f5f5",   // Very light gray for subtle divisions
-          gray: "#aaaaaa",       // Lighter gray for borders, secondary text
-          darkgray: "#555555",   // Main text color
-          dark: "#222222",       // Darker text, headings
-          secondary: "#0056b3",   // A calm blue for links/accents
-          tertiary: "#4a90e2",   // A slightly lighter blue
-          highlight: "rgba(74, 144, 226, 0.1)", // Subtle blue highlight
-          textHighlight: "#fff23688", // Keep yellow for text highlights (optional)
+          light: "#f6f7fb",         // Very light blue-gray background
+          lightgray: "#eaedf3",     // Light gray for boxes
+          gray: "#9ba4b5",          // Medium gray for borders
+          darkgray: "#35374b",      // Dark blue-gray for text
+          dark: "#202030",          // Very dark blue for headings
+          secondary: "#5c6d8f",     // Deep blue for links and accents
+          tertiary: "#8da2c4",      // Lighter blue accent
+          highlight: "rgba(92, 109, 143, 0.15)", // Subtle highlight
+          textHighlight: "#f8e4bc", // Peach highlight for text
         },
         darkMode: {
-          light: "#1a1a1a",       // Very dark gray background
-          lightgray: "#2a2a2a",   // Slightly lighter dark gray
-          gray: "#777777",       // Medium gray for borders, secondary text
-          darkgray: "#cccccc",   // Main text color (light gray)
-          dark: "#eeeeee",       // Lighter text, headings (off-white)
-          secondary: "#58a6ff",   // Brighter blue for links/accents in dark mode
-          tertiary: "#79c0ff",   // Lighter blue
-          highlight: "rgba(88, 166, 255, 0.15)", // Subtle blue highlight
-          textHighlight: "#b3aa0288", // Keep dark yellow for highlights (optional)
+          light: "#1a1c2d",         // Dark blue-gray background
+          lightgray: "#2a2e42",     // Slightly lighter box background
+          gray: "#606680",          // Medium-light accents
+          darkgray: "#c9cde3",      // Light text color
+          dark: "#eef0ff",          // Near white for headings
+          secondary: "#8da2c4",     // Medium blue for links and accents
+          tertiary: "#637db1",      // Darker blue accent
+          highlight: "rgba(141, 162, 196, 0.15)", // Subtle highlight
+          textHighlight: "#705937", // Darker highlight for text
         },
       },
     },

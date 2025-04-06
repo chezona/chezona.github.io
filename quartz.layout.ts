@@ -1,6 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import GoatCounter from "./quartz/components/scripts/GoatCounter"
+import ConditionalFooter from "./quartz/components/scripts/ConditionalFooter"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -9,12 +10,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     GoatCounter(),
   ],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/chezona",
-      Email: "mailto:contact@example.com",
-    },
-  }),
+  footer: ConditionalFooter(),
 }
 
 // components for pages that display a single page (e.g. a single note)

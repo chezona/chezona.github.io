@@ -11,9 +11,8 @@ This is where I collect thoughts, learnings, and ideas on various topics.
 - [[note3|Building Better Habits]]
 
 ## Topics
-- Technology
-- Productivity
-- Learning
-- Personal Development
+- Finance
+- Neural Nets
+- Filmmaking
 
 [Back to Home](../index.md) 
