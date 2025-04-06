@@ -1,15 +1,15 @@
 ---
-title: Welcome to My Digital Garden
+title: Welcome
 ---
 
-# Welcome to My Digital Garden
+# Hello, I'm Chezona
 
-This is my personal knowledge base where I share notes, ideas, and resources. Feel free to explore!
+This is my personal space where I document my thoughts, projects, and discoveries. Think of it as my open notebook — always evolving and never quite finished.
 
-## What you'll find here
+## Explore My Notes
 
-- [[projects/index|My Projects]]
-- [[notes/index|Notes & Ideas]]
-- [[resources/index|Useful Resources]]
+- [[projects/index|Projects]] — Things I'm building and working on
+- [[notes/index|Ideas & Thoughts]] — Concepts, learnings, and reflections
+- [[resources/index|Resources]] — Useful tools and references I've collected
 
-Built with [Quartz](https://quartz.jzhao.xyz/), a powerful tool for publishing digital gardens.
+Feel free to wander around. The connections between ideas are often more interesting than the ideas themselves.

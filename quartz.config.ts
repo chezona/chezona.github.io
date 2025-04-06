@@ -8,13 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "My Digital Garden",
-    pageTitleSuffix: " | Knowledge Base",
+    pageTitle: "Chezona's Garden",
+    pageTitleSuffix: " | Digital Notes",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "goatcounter",
-      websiteId: "YOUR_CODE_HERE" // Replace with your GoatCounter Website ID/Code
+      websiteId: "chezona" // Replace with your actual GoatCounter site code
     },
     locale: "en-US",
     baseUrl: "chezona.github.io",
@@ -24,9 +24,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "'Merriweather', serif",
-        body: "'Lato', sans-serif",
-        code: "'Fira Code', monospace",
+        header: "Merriweather",
+        body: "Lato",
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
