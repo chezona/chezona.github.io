@@ -2,9 +2,9 @@
 title: Welcome
 ---
 
-# Hello, I'm Chezona
+# Hello, This is my Webyard
 
-This is my personal space where I document my thoughts, projects, and discoveries. Think of it as my open notebook — always evolving and never quite finished.
+A small space where I grow and share my thoughts, projects, and discoveries (if any) — always evolving and never quite finished. I am particularly keen on finance, neural nets and filmmaking. 
 
 ## Explore My Notes
 
