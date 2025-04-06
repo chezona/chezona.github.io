@@ -9,20 +9,20 @@ This is my personal space where I document my thoughts, projects, and discoverie
 <div class="featured-box">
   <div class="box">
     <h3>Projects</h3>
-    <p>Things I'm building and working on right now.</p>
-    <a href="projects">Explore Projects →</a>
+    <p>Explorations, experiments, and creations I'm currently working on. From coding to creative writing, these are my works in progress.</p>
+    <a href="projects">Explore Projects</a>
   </div>
   
   <div class="box">
     <h3>Ideas & Thoughts</h3>
-    <p>Concepts, learnings, and reflections on various topics.</p>
-    <a href="notes">Browse Notes →</a>
+    <p>A collection of concepts, learnings, and reflections on various topics that have captured my attention and curiosity.</p>
+    <a href="notes">Browse Notes</a>
   </div>
   
   <div class="box">
     <h3>Resources</h3>
-    <p>Useful tools and references I've collected along the way.</p>
-    <a href="resources">View Resources →</a>
+    <p>Useful tools, references, and materials I've gathered over time. Things I find valuable and worth sharing.</p>
+    <a href="resources">View Resources</a>
   </div>
 </div>
 
