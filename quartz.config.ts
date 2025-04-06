@@ -13,42 +13,43 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "goatcounter",
+      websiteId: "YOUR_CODE_HERE" // Replace with your GoatCounter Website ID/Code
     },
     locale: "en-US",
-    baseUrl: "inschools-ng.github.io",
+    baseUrl: "chezona.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Inter",
-        body: "Inter",
-        code: "JetBrains Mono",
+        header: "'Merriweather', serif",
+        body: "'Lato', sans-serif",
+        code: "'Fira Code', monospace",
       },
       colors: {
         lightMode: {
-          light: "#f8f8f2",
-          lightgray: "#e3e3e0",
-          gray: "#999999",
-          darkgray: "#6272a4",
-          dark: "#282a36",
-          secondary: "#bd93f9",
-          tertiary: "#ff79c6",
-          highlight: "rgba(189, 147, 249, 0.15)",
-          textHighlight: "#f1fa8c88",
+          light: "#ffffff",       // White background
+          lightgray: "#f5f5f5",   // Very light gray for subtle divisions
+          gray: "#aaaaaa",       // Lighter gray for borders, secondary text
+          darkgray: "#555555",   // Main text color
+          dark: "#222222",       // Darker text, headings
+          secondary: "#0056b3",   // A calm blue for links/accents
+          tertiary: "#4a90e2",   // A slightly lighter blue
+          highlight: "rgba(74, 144, 226, 0.1)", // Subtle blue highlight
+          textHighlight: "#fff23688", // Keep yellow for text highlights (optional)
         },
         darkMode: {
-          light: "#282a36",
-          lightgray: "#44475a",
-          gray: "#6272a4",
-          darkgray: "#f8f8f2",
-          dark: "#f8f8f2",
-          secondary: "#bd93f9",
-          tertiary: "#ff79c6",
-          highlight: "rgba(189, 147, 249, 0.15)",
-          textHighlight: "#f1fa8c88",
+          light: "#1a1a1a",       // Very dark gray background
+          lightgray: "#2a2a2a",   // Slightly lighter dark gray
+          gray: "#777777",       // Medium gray for borders, secondary text
+          darkgray: "#cccccc",   // Main text color (light gray)
+          dark: "#eeeeee",       // Lighter text, headings (off-white)
+          secondary: "#58a6ff",   // Brighter blue for links/accents in dark mode
+          tertiary: "#79c0ff",   // Lighter blue
+          highlight: "rgba(88, 166, 255, 0.15)", // Subtle blue highlight
+          textHighlight: "#b3aa0288", // Keep dark yellow for highlights (optional)
         },
       },
     },
